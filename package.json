@@ -1,0 +1,22 @@
+{
+  "name": "neural-sense",
+  "version": "1.0.2",
+  "description": "Neural Network in JavaScript.",
+  "main": "lib/neural-sense.js",
+  "types": "lib/neural-sense.d.ts",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "keywords": [
+    "neural sense",
+    "ai",
+    "neural network",
+    "network",
+    "javascript"
+  ],
+  "author": "nerq1337",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
