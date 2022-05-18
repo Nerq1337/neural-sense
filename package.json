@@ -1,7 +1,7 @@
 {
   "name": "neural-sense",
   "version": "1.0.2",
-  "description": "Neural Network in JavaScript.",
+  "description": "Neural Network on TypeScript.",
   "main": "lib/neural-sense.js",
   "types": "lib/neural-sense.d.ts",
   "scripts": {

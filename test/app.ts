@@ -1,4 +1,4 @@
-import { NeuralSense } from '../lib/neural-sense';
+import NeuralSense from '../lib/neural-sense';
 
 const networkSettings = {
 	inputNeurons: 2,

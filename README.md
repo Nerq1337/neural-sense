@@ -8,16 +8,13 @@ npm i neural-sense
 
 ## Usage
 ```javascript
-import { NeuralSense } from 'neural-sense';
+import NeuralSense from 'neural-sense';
 ```
-
-## Documentation
-Soon...
 
 ## Examples
 XOR:
 ```javascript
-import { NeuralSense } from 'neural-sense';
+import NeuralSense from 'neural-sense';
 
 const networkSettings = {
 	inputNeurons: 2,

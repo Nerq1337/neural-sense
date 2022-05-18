@@ -1,6 +1,6 @@
-import { Neuron } from './neuron';
+import Neuron from './neuron';
 
-export class NeuralSense {
+class NeuralSense {
 	private inputNeurons: Layer = [];
 	private hiddenLayers: Array<Layer> = [];
 	private outputNeuron = new Neuron();
@@ -271,3 +271,5 @@ export class NeuralSense {
 		console.log(result);
 	}
 }
+
+export default NeuralSense;

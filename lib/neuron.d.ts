@@ -1,4 +1,4 @@
-export declare class Neuron {
+declare class Neuron {
     Bias?: boolean | undefined;
     NeuronsInput: Array<Neuron>;
     NeuronsOutput: Array<Neuron>;
@@ -25,4 +25,5 @@ export declare class Neuron {
     private defaultGD;
     UpdateWeights(): void;
 }
+export default Neuron;
 //# sourceMappingURL=neuron.d.ts.map

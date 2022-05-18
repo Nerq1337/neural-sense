@@ -1,4 +1,4 @@
-export declare class NeuralSense {
+declare class NeuralSense {
     private inputNeurons;
     private hiddenLayers;
     private outputNeuron;
@@ -23,4 +23,5 @@ export declare class NeuralSense {
     Train(settings: ITrainingSettings): void;
     Predict(task: Array<number>, log?: boolean): void | number;
 }
+export default NeuralSense;
 //# sourceMappingURL=neural-sense.d.ts.map

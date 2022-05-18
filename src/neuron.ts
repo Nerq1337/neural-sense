@@ -1,4 +1,4 @@
-export class Neuron {
+class Neuron {
 	public NeuronsInput: Array<Neuron> = [];
 	public NeuronsOutput: Array<Neuron> = [];
 	public WeightsInput: Array<number> = [];
@@ -185,3 +185,5 @@ export class Neuron {
 	}
 
 }
+
+export default Neuron;
