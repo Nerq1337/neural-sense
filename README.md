@@ -31,7 +31,7 @@ const trainingSettings = {
 	],
 	hyperParams: {
 		optimizer: 'Adam',
-		learningRate: 0.1,
+		learningRate: 0.001,
 	},
 	error: {
 		threshold: 0.001,
